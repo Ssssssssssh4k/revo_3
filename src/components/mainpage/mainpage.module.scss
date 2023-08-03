@@ -1,0 +1,78 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: 450px 1fr 275px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+
+    
+}
+
+.mainColumn {
+    color: red;
+}
+
+.leftColumn {
+    background: #fff;
+    font-size: 54px;
+    height: 100%;
+
+}
+
+.centerColumn {
+    background-image: url("http://i2.wp.com/www.borbay.com/wp-content/uploads/2016/02/Jesus-Painting-by-Borbay.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.rightColumn {
+    width: 100%;
+    background-color: #415167;
+}
+
+.logo {
+    height: 40px;
+    width: 125px;
+}
+
+.slogan {
+    position: relative;
+    left: 195px;
+    bottom: 65px;
+
+    color: #415167;
+    span {
+        color: white;
+        background-color: #C7A17A;
+    }
+}
+
+
+.menu {
+    font-family: "Nunito";
+}
+
+.iconMenu {
+    position: relative;
+    left: 56px;
+    top: 72px;
+}
+
+.textMenu {
+    position: relative;
+    left: 56px;
+    top: 230px;
+    font-weight: 400;
+    h4 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    li {
+        margin-bottom: 24px;
+    }
+    li:last-child {
+        margin-bottom: 0;
+    }
+
+}
